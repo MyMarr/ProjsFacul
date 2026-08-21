@@ -1,0 +1,94 @@
+/* Fundo */
+
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #324d7f;
+}
+
+/* Letras e Espaços */
+h1{
+    font-size: 80px;
+    color: #0e1c31;
+    text-align: center;
+}
+
+h2, p{ 
+    color: #172842;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: #172842;
+    text-align: center;
+}
+
+h3{
+    font-size: 40px;
+    color: #0e1c31;
+    text-align: center;
+}
+li{
+    color: #172842;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding: 15px;
+}
+a
+{
+    font-size: 20px;
+    color:#172842;
+}
+
+/* Menu e Fotos*/
+
+.linhadomenu{
+    width: 550px; 
+    border: 2px solid #dac481;
+    width: 50%;
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
+.menu{
+    color:#0e1c31;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    width: 250px;
+    margin: 80px;
+    padding: 20px;
+    border: 2px solid #dbb235;
+    background-color: #dac481;
+    border-radius: 12px;
+    display: block;
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
+.foto { 
+    width: 300px; 
+    display: block;  /*transforma a imagem em bloco */
+    margin-left: auto; /* Centraliza o lado esquerdo */
+    margin-right: auto; /* Centraliza o lado direito */
+}
+
+/* Cardd e Footer */
+.card{
+  width: 700px;
+  margin: 80px;
+  border-radius: 12px;
+  border: 2px solid #dbb235;
+  background-color:#e6d68f;
+  padding: 50px;
+  display: block;  
+  margin-left: auto;
+  margin-right: auto; 
+}
+
+footer {
+    border: 2px solid #dbb235;
+    background-color: #e6d68f;
+    padding: 20px 0; /* Menos espaçamento vertical */
+    text-align: center; /* Centraliza tudo */
+    font-family: georgia, 'Times New Roman', Times, serif;
+    color: #172842;
+    font-size: 0.9rem;
+}
