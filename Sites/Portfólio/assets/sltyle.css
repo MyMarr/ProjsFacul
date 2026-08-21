@@ -1,0 +1,81 @@
+/* FUNDO */
+body {
+  background-color: rgb(228, 199, 166);
+}
+
+header {
+    display: center;
+    padding: 15px 30px;
+    background-color: #f8e7d5;
+}
+
+/* MENU */
+.linha-menu {
+    border: none;
+    border-top: 2px solid #663214;
+    width: 80%;                  
+    margin: 20px auto 15px auto;
+  }
+
+.menu{
+    display: flex;
+    justify-content: space-evenly; /* Distribui os links com bastante espaço entre eles */
+    margin-bottom: 25px;
+}
+
+.menu a {
+    color: #663214;   
+    font-family: Georgia;     
+    font-size: 1.5rem;
+  }
+
+  /*Letras*/
+h1 {
+  color: #663214;
+  text-align: center;
+  font-family: Georgia;
+  font-size: 50px;
+}
+
+h2{ color: #663214;
+  text-align: center;
+  font-family: Georgia;
+  font-size: 20px;
+}
+
+h3{ color: #663214;
+  text-align: center;
+  font-family: Georgia;
+  font-size: 30px;
+}
+
+p{
+  color: #663214;
+  font-family: Georgia;
+  text-align: center;
+}
+
+a, li{
+   color: #663214;
+  font-family: Georgia
+}
+
+/*IMAGEM*/
+.minhafoto {
+    width: 200px; 
+    display: block;  /*transforma a imagem em bloco */
+    margin-left: auto; /* Centraliza o lado esquerdo */
+    margin-right: auto; /* Centraliza o lado direito */
+  }
+
+
+/*FOODER*/
+footer {
+    background-color: #f4f1ea;
+    padding: 20px ; /* Menos espaçamento vertical */
+    text-align: center; /* Centraliza tudo */
+    font-family: Arial, sans-serif;
+    color: #555;
+    font-size: 0.9rem;
+    border-top: 1px solid #ddd; 
+}
