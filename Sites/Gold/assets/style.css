@@ -1,0 +1,157 @@
+:root{
+    --cor-fundo: #fdc55cf4;
+    --cor-borda: #e18311;
+    --cor-texto-principal: #452b0a;
+    --cor-texto: #6e3f05;
+
+}
+
+/* Formas */
+* {
+box-sizing: border-box;
+}
+
+body{
+    background-image:url(../assets/lastcorridor.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed; 
+    display: grid;
+    grid-template-columns: minmax(300px, 800px);
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin: 20px;
+   
+}
+
+footer{
+    border: 2px solid var(--cor-borda);
+    border-radius: 10px;
+    background-color: var(--cor-fundo);
+    padding: 15px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem;
+   gap: 1rem;
+
+}
+
+.menu a{
+    border: 2px solid var(--cor-borda);
+    border-radius: 10px;
+    background-color: var(--cor-fundo);
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+.menu a, footer a{
+    text-decoration: none;
+    text-align: center;
+    color: var(--cor-texto-principal);
+}
+
+section{
+    border: 2px solid var(--cor-borda);
+    border-radius: 10px;
+    background-color: var(--cor-fundo);
+    padding: auto;
+    margin-top: 10px;
+    margin: 12px;
+    gap: 24p;
+    text-align: center;
+}
+
+/*texto e titulo, links*/
+h1,h2,h3{
+  text-decoration: none ;
+  color: var(--cor-texto);
+}
+
+
+h1{
+    border: 2px solid var(--cor-borda);
+    border-radius: 10px;
+    background-color: var(--cor-fundo);
+    text-align: center;
+    padding: 15px;
+    margin: auto;
+    color: var(--cor-texto-principal);
+}
+
+h2{
+    color: var(--cor-texto-principal);
+}
+
+p, h3{
+    align-items: normal;
+    text-align: center;
+    padding: 1rem;
+    color: var(--cor-texto);
+}
+
+ul, ol, li{
+    text-align: justify;
+    margin-right: 2rem; 
+    margin-left: 1rem;
+    color: var(--cor-texto);
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 10px;
+  text-decoration: none;
+  color: var(--cor-texto) ;
+}
+
+footer p, .footer-links {
+    text-align: center;
+    margin: 1px;
+}
+
+
+/*tamanho tela*/
+
+@media (max-width: 600px) /*celular*/
+{
+body {
+    grid-template-columns: 100%; /* ocupa a largura inteira da tela do celular */
+    padding: 10px;
+    gap: 15px;
+  }
+
+  .menu {
+    flex-direction: column; /* empilha os botões no celular */
+    gap: 1rem;
+  }
+
+  .menu a {
+    width: 100%; /* Botões grandes*/
+    padding: 12px 15px;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  section {
+    padding: 15px;
+  }
+}
+
